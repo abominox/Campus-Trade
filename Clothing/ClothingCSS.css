@@ -1,0 +1,440 @@
+html {
+	position: relative;
+	padding-bottom: 100px;
+	height: 100%;
+}
+
+body {
+	background-color: #8d9093;
+	height: 100%;
+}
+/* Navbar CSS */
+.navbar-default {
+	position: fixed;
+	background-color: #990000;
+	border-color: #990000;
+	z-index: 1;
+}
+
+.glyphicon.glyphicon-search {
+	font-size: 145% !important;
+}
+
+.dropdown-toggle {
+	display: inline-block;
+	border: 2px solid black;
+	font-size: 18px;
+}
+
+.dropdown-menu {
+	background-color: #292c2f;
+}
+
+.dropdown-menu li a {
+	color: #8d9093;
+}
+
+#dropdown {
+	font-size: 130%;
+	margin-top: 5px;
+	background-color: #292c2f;
+	border: none;
+	color: #8d9093;
+}
+
+#loginModal {
+
+}
+
+.modal-header {
+	background-color: #292c2f;
+	color: #8d9093;
+	border: none;
+}
+
+.modal-body {
+	background-color: #8d9093;
+	border: none;
+}
+
+.modal-footer {
+	background-color: #292c2f;
+	color #8d9093;
+	border: none;
+}
+
+#login {
+	font-size: 130%;
+	margin-top: 5px;
+	background-color: #292c2f;
+	border: none;
+	color: #8d9093;
+	border-radius: 25px;
+	display: inline-block;
+}
+
+#login2 {
+	display: none;
+}
+
+#userBtn {
+	font-size: 130%;
+	margin-top: 5px;
+	background-color: #292c2f;
+	border: none;
+	color: #8d9093;
+	border-radius: 25px;
+	display: inline-block;
+}
+
+#add2 {
+	display: none;
+}
+
+#add {
+	border-radius: 25px;
+	font-size: 130%;
+	margin-top: 5px;
+	background-color: #292c2f;
+	border: none;
+	color: #8d9093;
+	display: inline-block;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.tags {
+	border-top: 2px solid #8d9093;
+}
+
+/* End of Navbar */
+
+/* Logo CSS */
+
+.positioner {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height:75px;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+	z-index: 2;
+	position: relative;
+}
+
+.brand {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 75px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	z-index: 2;
+	position: fixed;
+}
+
+/* End of Logo CSS */
+
+/* Listings CSS */
+
+.sections {
+	Background:#292c2f;
+	margin: 50px;
+	margin-top: 20px;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px grey;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+#title {
+	font-size: 16px;
+	color: #990000;
+	display: inline-block;
+	text-decoration: underline;
+}
+
+
+.headings {
+	text-align: center;
+	margin: auto;
+	font-size: 36px;
+	color:#8d9093;
+
+}
+
+.box {
+	border-radius: 25px;
+	text-align: center;
+	display: inline-block;
+	margin: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 250px;
+	width: 250px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	background: #8d9093;
+	position: relative;
+}
+
+.picture {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	position: absolute;
+	display: block;
+	margin: 0 auto;
+	margin-left: 70px;
+	border-radius: 25px;
+	margin-top: 10px;
+}
+
+.text {
+	padding-top: 120px;
+}
+
+
+/* End of Listings CSS */
+
+
+ /* FOOTER CSS */
+.footer-basic-center{
+	bottom: 0;
+	position: absolute;
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+	padding: 5px;
+	height: 60px;
+}
+
+.footer-basic-center {
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-center .footer-company-name{
+	color:  #8d9093;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-center .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #8d9093;
+	font-size: 14px;
+	padding: 10px 0 10px;
+	margin: 0;
+}
+
+.footer-basic-center .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+/* CSS for 1080px screen size */
+
+@media (max-width: 1080px) {
+	.brand {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 75px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	z-index: 2;
+	position: fixed;
+}
+
+	#mynavbar {
+	width: 100px;
+	}
+
+	.navbar-header {
+		float: none;
+	}
+
+	.navbar-toggle {
+		display: block;
+	}
+
+	.active {
+		border-right: 2px solid black;
+		border-left: 2px solid black;
+	}
+
+	.nav.navbar-nav li a {
+		border-left: none;
+		border-bottom: 2px solid black;
+	}
+
+	.navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  #searchBar {
+	  float: left !important;
+	  padding-right: 20px;
+	  padding-left: 20px;
+	  border: none;
+	  box-shadow: none;
+  }
+
+  #add {
+	  float: right;
+	  margin-right: 10px;
+	  padding-right: 5px;
+	  padding-left: 5px;
+  }
+}
+  /* End of CSS for 1080px screen */
+
+  /* CSS for 765px screen size or smaller */
+
+  @media (max-width: 765px) {
+	.middle {
+		margin-top: 50px;
+
+	}
+	.positioner {
+		float: top-left;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		z-index: 2;
+		position: relative;
+	}
+
+	.brand {
+		float: top;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		z-index: 2;
+		position: fixed;
+	}
+
+	.navbar-header {
+		float: none;
+	}
+
+	.navbar-left{
+		float: none !important;
+	}
+
+	.navbar-right{
+		float: none !important;
+	}
+
+	.navbar-toggle {
+		border: none;
+		display: block;
+	}
+	.left-side {
+		border-top: 2px solid black;
+	}
+
+	.active {
+		border-right: 2px solid black;
+		border-left: 2px solid black;
+	}
+
+	.right-side {
+		border-right: none;
+	}
+
+	.nav.navbar-nav li a {
+		border-left: none;
+		border-bottom: 2px solid black;
+	}
+
+	.navbar-toggler {
+		border: none;
+	}
+
+	.navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+	}
+
+	.navbar-nav>li {
+      float: none;
+	}
+
+	.navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+	}
+
+	.collapse.in{
+      display:block !important;
+	}
+
+	#searchBar {
+	  float: right !important;
+	  padding-right: 20px;
+	  border-bottom: none;
+	  border-top: none;
+	  box-shadow: none;
+	}
+
+	#login2 {
+		display: inline-block;
+		font-size: 130%;
+		margin-top: 5px;
+		background-color: #292c2f;
+		border: none;
+		color: #8d9093;
+		float: right;
+		margin-right: 10px;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+	#login {
+		display: none;
+	}
+
+	#add2 {
+	  display: inline-block;
+	  font-size: 130%;
+	  margin-top: 5px;
+	  background-color: #292c2f;
+	  border: none;
+	  color: #8d9093;
+	  float: right;
+	  margin-right: 10px;
+	  padding-right: 5px;
+	  padding-left: 5px;
+	}
+
+	#add {
+	  display: none;
+	}
+
+  }
+}
